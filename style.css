@@ -1,6 +1,101 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap");
+
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: "Roboto serif";
 }
 
+.top {
+  background-color: #f0dacd;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 67px;
+  padding-right: 67px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  display: flex;
+  padding-left: 64px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.teddyIcon {
+  width: 48px;
+  height: 57px;
+}
+
+.teddyShop {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+  color: #29180f;
+  width: 73px;
+  height: 40px;
+  text-align: right;
+  margin-left: -10px;
+}
+
+.navBar{
+  display: flex;
+  font-size: 18px;
+  width: 676px;
+  height: 40px;
+  top: -0.5px;
+  left: 258px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navBar > a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.iconBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 161px;
+  height: 24px;
+}
+
+.buy {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  background-color: #89D3D1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 71px;
+  margin-right: 64px
+}
+
+.s1 p {
+  position: absolute;
+}
+
+.s1 img {
+  width: 100%;
+  height: 100%;
+}
