@@ -49,7 +49,7 @@
   border-radius: 28px;
   border: 3px solid #ffffff;
   background-color: #ffffff;
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
 }
 
 .content img {
