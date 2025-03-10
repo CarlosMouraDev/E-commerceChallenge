@@ -29,7 +29,7 @@
   display: flex;
   color: #29180F;
   background-color: #ffffff;
-  width: 440px;
+  width: 430px;
   height: 77px;
   border: 3px solid #C9B079;
   border-top: none;
@@ -49,15 +49,15 @@
 
 @media (min-width: 1514px) {
   .section1 p {
-    font-size: 30px;
+    font-size: 27px;
   }
   .t1 {
-    width: 550px;
-    height: 90px;
+    width: 480px;
+    height: 80px;
   }
   .t2 {
-    width: 700px;
-    height: 90px;
+    width: 650px;
+    height: 80px;
     left: -130px;
   }
 }
