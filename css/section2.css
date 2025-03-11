@@ -36,7 +36,10 @@
 
 .contentSection2{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
+  margin: 1px 5px 10px 5px;
+  flex-wrap: wrap;
 }
 
 .content {
