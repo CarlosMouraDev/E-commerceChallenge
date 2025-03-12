@@ -47,33 +47,49 @@
   box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.25);
 }
 
-@media (min-width: 1640px) {
+@media (min-width: 1660px) {
   .section1 p {
     font-size: 30px;
   }
   .t1 {
-    width: 600px;
+    width: 550px;
     height: 90px;
   }
   .t2 {
-    width: 700px;
+    width: 760px;
     height: 90px;
-    left: -130px;
+    left: -160px;
   }
 }
 
-@media (min-width: 1890px) {
+
+@media (min-width: 2000px) {
   .section1 p {
-    font-size: 33px;
+    font-size: 40px;
   }
   .t1 {
     width: 750px;
-    height: 98px;
-    left: -80px;
+    height: 120px;
+    left: -120px;
   }
   .t2 {
-    width: 900px;
-    height: 98px;
+    width: 1200px;
+    height: 120px;
     left: -250px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section1 p {
+    font-size: 20px;
+  }
+  .t1 {
+    width: 400px;
+    height: 60px;
+  }
+  .t2 {
+    width: 500px;
+    height: 60px;
+    left: -120px;
   }
 }
