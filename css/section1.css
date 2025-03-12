@@ -93,3 +93,18 @@
     left: -120px;
   }
 }
+
+@media (max-width: 900px) {
+  .section1 p {
+    font-size: 15px;
+  }
+  .t1 {
+    width: 300px;
+    height: 40px;
+  }
+  .t2 {
+    width: 400px;
+    height: 40px;
+    left: -80px;
+  }
+}
