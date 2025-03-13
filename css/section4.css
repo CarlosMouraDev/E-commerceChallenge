@@ -86,3 +86,21 @@
   width: 8px;
   height: 8px;
 }
+
+@media (max-width: 915px) {
+  .s4Top h1{
+    font-size: 28px;
+  }
+  .s4Top img {
+    width: 46px;
+  }
+}
+
+@media (max-width: 610px) {
+  .s4Top h1{
+    font-size: 24px;
+  }
+  .s4Top img {
+    width: 36px;
+  }
+}

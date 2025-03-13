@@ -108,3 +108,47 @@
     left: -80px;
   }
 }
+@media (max-width: 700px) {
+  .section1 p {
+    font-size: 11px;
+  }
+  .t1 {
+    width: 230px;
+    height: 37px;
+  }
+  .t2 {
+    width: 300px;
+    height: 37px;
+    left: -70px;
+  }
+}
+
+@media (max-width: 700px) {
+  .section1 p {
+    font-size: 9px;
+  }
+  .t1 {
+    width: 210px;
+    height: 30px;
+  }
+  .t2 {
+    width: 220px;
+    height: 30px;
+    left: -70px;
+  }
+}
+
+@media (max-width: 430px) {
+  .section1 p {
+    font-size: 7px;
+  }
+  .t1 {
+    width: 148px;
+    height: 30px;
+  }
+  .t2 {
+    width: 180px;
+    height: 30px;
+    left: -50px;
+  }
+}

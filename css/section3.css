@@ -107,3 +107,46 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+@media (max-width: 660px) {
+  .s3Top {
+    width: 500px;
+    height: 60px;
+    margin-top: 25px;
+  }
+  .s3Top p {
+    font-size: 29px;
+    margin-left: -30px;
+  }
+  .s3Teddy {
+    width: 220px;
+    height: 295px;
+  }
+
+  .contentBuy {
+    display: flex;
+    align-items:center;
+    gap: 15px;
+    margin: 50px 2px 20px 5px;
+  }
+
+  .s3Teddy > img {
+    margin-top: 10px;
+    width: 191px;
+    height: 191px;
+  }
+  .teddyDesc > h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 10px;
+  }
+  
+  .teddyDesc > p {
+    font-family: 'Roboto';
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 600;
+  }
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="images/bear.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/bear.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Teddy Shop</title>
   </head>
@@ -19,13 +19,17 @@
           <img class="teddyIcon" src="images/teddyIcon.svg" alt="TeddyIcon" />
           <p class="teddyShop">Teddy Shop</p>
         </div>
+        <div class="mobileMenu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
         <nav class="navBar">
-          <a>Home</a>
-          <a>Categorie</a>
-          <a>Novità</a>
-          <a>Marchi</a>
-          <a>Carte regalo</a>
-          <a>Chi siamo</a>
+          <a href="/">Categorie</a>
+          <a href="/">Novità</a>
+          <a href="/">Marchi</a>
+          <a href="/">Carte regalo</a>
+          <a href="/">Chi siamo</a>
         </nav>
         <nav class="iconBar">
           <img src="images/search.svg" alt="SearchIcon" />
@@ -381,65 +385,71 @@
       <div class="s8Top">
         <div class="s8TopLeft">
           <h3>TeddyShop Newsletter</h3>
-          <p>Resta aggiornato sulle ultime novità, promozioni e offerte speciali.</p>
+          <p>
+            Resta aggiornato sulle ultime novità, promozioni e offerte speciali.
+          </p>
         </div>
         <div class="s8TopRight">
           <form action="POST">
-            <input class="email" type="email" placeholder="inserisci la tua email">
+            <input
+              class="email"
+              type="email"
+              placeholder="inserisci la tua email"
+            />
             <button type="submit">Isciviti adesso</button>
           </form>
           <a href="">Iscrivendoti accetti la nostra Privacy Policy</a>
-        </div>  
+        </div>
       </div>
-      <hr>
+      <hr />
       <div class="s8ContentContainer">
         <div class="s8Content">
           <h1>Per aiutare</h1>
           <p>
-            Consegna <br>
-            Ritorno <br>
-            Domande frequenti <br>
-            Pagamento sicuro <br>
+            Consegna <br />
+            Ritorno <br />
+            Domande frequenti <br />
+            Pagamento sicuro <br />
             Privacy e sicureza
           </p>
         </div>
         <div class="s8Content">
           <h1>Chi siamo</h1>
           <p>
-            La nostra storia <br>
-            Sicurezza e idonetà <br>
-            Generali T $ C <br>
-            Commercio equo <br>
+            La nostra storia <br />
+            Sicurezza e idonetà <br />
+            Generali T $ C <br />
+            Commercio equo <br />
             Mappa del sito
           </p>
         </div>
         <div class="s8Content">
           <h1>Commercio</h1>
           <p>
-            Rivenditori esterni<br>
-            Diventa un rivenditoore <br>
-            Fiere e Convegni <br>
-            Termini e condizioni <br>
+            Rivenditori esterni<br />
+            Diventa un rivenditoore <br />
+            Fiere e Convegni <br />
+            Termini e condizioni <br />
             Pubbliche relazioni
           </p>
         </div>
         <div class="s8Content">
           <h1>Supporto</h1>
           <p>
-            Il mio conto <br>
-            Contattaci <br>
-            Spedizione <br>
-            Spedizione estiva<br>
+            Il mio conto <br />
+            Contattaci <br />
+            Spedizione <br />
+            Spedizione estiva<br />
             Richiamare
           </p>
         </div>
         <div class="s8Content">
           <h1>Social</h1>
           <p>
-            Instagram <br>
-            Facebook <br>
-            Twitter <br>
-            You Tube <br>
+            Instagram <br />
+            Facebook <br />
+            Twitter <br />
+            You Tube <br />
             Pinteres
           </p>
         </div>
@@ -456,5 +466,6 @@
         <p>&copy; 2023 TeddyShop. Tutti i diritti riservati.</p>
       </div>
     </footer>
+    <script src="src/mobileNavBar.js"></script>
   </body>
 </html>
