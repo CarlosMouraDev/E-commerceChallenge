@@ -7,3 +7,24 @@ footer {
 footer p {
   margin-right: 30px;
 }
+
+@media (max-width: 560px) {
+  footer p {
+    font-size: 12px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  footer p {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  footer p {
+    font-size: 8px;
+    margin-right: 10px;
+  }
+}

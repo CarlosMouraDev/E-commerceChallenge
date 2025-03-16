@@ -514,3 +514,19 @@
     margin-bottom: -10px
   }
 }
+
+@media (max-width: 510px) {
+  .s6Top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .s6Top h1{
+    font-size: 20px;
+  }
+  .s6Top img {
+    width: 30px;
+  }
+}

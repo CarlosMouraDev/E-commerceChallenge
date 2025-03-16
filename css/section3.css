@@ -143,10 +143,49 @@
   }
   
   .teddyDesc > p {
-    font-family: 'Roboto';
-    margin-top: 10px;
     font-size: 20px;
-    line-height: 150%;
-    font-weight: 600;
+  }
+}
+
+@media (max-width: 500px) {
+  .s3Top {
+    width: 320px;
+    height: 50px;
+    margin-top: 25px;
+  }
+  .s3Top p {
+    font-size: 22px;
+    margin-left: -20px;
+  }
+  .s3Teddy {
+    width: 170px;
+    height: 255px;
+  }
+
+  .contentBuy {
+    display: flex;
+    align-items:center;
+    gap: 15px;
+    margin: 50px 2px 20px 5px;
+  }
+
+  .s3Teddy > img {
+    margin-top: 10px;
+    width: 141px;
+    height: 151px;
+  }
+  .teddyDesc > h1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    margin-bottom: 10px;
+  }
+  .teddyDesc > p {
+    font-size: 13px;
+  }
+  .s3Top img {
+    margin-left: -10px;
+    height: 30px;
+    width: 60px;
   }
 }

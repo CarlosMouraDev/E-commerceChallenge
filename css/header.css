@@ -74,6 +74,9 @@
   text-decoration: none;
   color: #29180f;
 }
+.navBar > a:hover {
+  text-decoration: underline;
+}
 
 .iconBar {
   display: flex;
@@ -81,6 +84,7 @@
   justify-content: space-between;
   width: 161px;
   height: 24px;
+  cursor: pointer;
 }
 
 .buy {
@@ -95,6 +99,10 @@
   padding-left: 20px;
   border-radius: 71px;
   margin-right: 24px;
+}
+.buy:hover {
+  background-color: #84bebe;
+  cursor: pointer;
 }
 
 @media (max-width: 1180px) {
@@ -129,7 +137,7 @@
   }
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1000px) {
   .navBar > a {
     font-weight: 500;
     font-size: 13px;
@@ -160,7 +168,7 @@
   }
 }
 
-@media (max-width:780px) {
+@media (max-width: 780px) {
   .buy {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -181,7 +189,7 @@
     top: 110px;
     right: 0;
     width: 30vw;
-    height: 50vh;
+    height: auto;
     background: #f0dacd;
     border: 2px solid #c9b079;
     border-radius: 15px;
@@ -199,7 +207,11 @@
     opacity: 0;
     font-size: 17px;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
+    padding: 20px;
+  }
+  .navBar a:hover{
+    text-decoration: none
   }
   .mobileMenu {
     display: block;
@@ -217,14 +229,13 @@
 }
 
 .navBar.active {
-  transform: scale(1) ;
+  transform: scale(1);
 }
 
 @keyframes navLinkFade {
   from {
     opacity: 0;
     transform: translateX(50px);
-
   }
   to {
     opacity: 1;
@@ -243,3 +254,133 @@
 .mobileMenu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
+
+@media (max-width: 590px) {
+  .top {
+    font-size: 6px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .icon {
+    align-items: center;
+    padding-left: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .teddyIcon {
+    width: 38px;
+    height: 57px;
+  }
+  .icon p {
+    font-size: 18px;
+  }
+
+  .iconBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 5px;
+    margin-left: -50px;
+  }
+  .iconBar img{
+    width: 18px;
+  }
+
+  .buy {
+    margin-left: -30px;
+    font-size: 10px;
+    width: 100px;
+    margin-right: -100px;
+  }
+  .mobileMenu div {
+    width: 28px;
+    height: 2px;
+    background: #29180f;
+    margin: 6px;
+    transition: 0.3s;
+  }
+  .mobileMenu.active .line1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .mobileMenu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobileMenu.active .line3 {
+    transform: rotate(45deg) translate(-4.5px, -6px);
+  }
+  .navBar a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 450px) {
+  .top {
+    font-size: 6px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .icon {
+    align-items: center;
+    padding-left: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .teddyIcon {
+    width: 38px;
+    height: 57px;
+  }
+  .icon p {
+    font-size: 18px;
+  }
+
+  .iconBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 5px;
+    margin-left: -50px;
+    gap: 15px;
+  }
+  .iconBar img{
+    width: 18px;
+  }
+
+  .buy {
+    margin-left: -50px;
+    font-size: 10px;
+    width: 100px;
+    margin-right: -70px;
+  }
+  .mobileMenu div {
+    width: 28px;
+    height: 2px;
+    background: #29180f;
+    margin: 6px;
+    transition: 0.3s;
+    margin-right: 10px;
+  }
+  .mobileMenu.active .line1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .mobileMenu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobileMenu.active .line3 {
+    transform: rotate(45deg) translate(-4.5px, -6px);
+  }
+  .navBar a {
+    font-size: 13px;
+  }
+} 
