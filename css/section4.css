@@ -1,17 +1,17 @@
 .section4 {
-  background-color: #E1EDE9;
+  background-color: #e1ede9;
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #29180F;
+  color: #29180f;
 }
 
-.s4B{
+.s4B {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 40px;
   margin: 40px;
   justify-content: center;
@@ -39,9 +39,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #FFFFFF;
-  border: 3px solid #C9B079;
-  box-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+  background-color: #ffffff;
+  border: 3px solid #c9b079;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 31px;
   text-align: center;
 }
@@ -65,7 +65,7 @@
   width: 53px;
   height: 53px;
   border-radius: 33px;
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-top: 16px;
 }
 
@@ -88,7 +88,7 @@
 }
 
 @media (max-width: 915px) {
-  .s4Top h1{
+  .s4Top h1 {
     font-size: 28px;
   }
   .s4Top img {
@@ -97,10 +97,72 @@
 }
 
 @media (max-width: 610px) {
-  .s4Top h1{
+  .s4Top h1 {
     font-size: 24px;
   }
   .s4Top img {
     width: 36px;
+  }
+}
+
+@media (max-width: 610px) {
+  .s4Top h1 {
+    font-size: 24px;
+  }
+  .s4Top img {
+    width: 36px;
+  }
+}
+@media (max-width: 535px) {
+  .s4Top h1 {
+    font-size: 20px;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  .s4Top img {
+    width: 26px;
+  }
+  .s4Content {
+    margin-top: -20px;
+    width: 318px;
+    height: 188px;
+  }
+
+  .s4Content > h1 {
+    font-size: 18px;
+  }
+
+  .s4Content > p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 300px;
+    margin-top: 7px;
+  }
+
+  .s4Content > img {
+    width: 47px;
+    height: 47px;
+    border-radius: 33px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 16px;
+  }
+
+  .s4Content > .image2 {
+    padding: 4px;
+  }
+
+  .selector {
+    display: flex;
+    justify-content: space-between;
+    width: 72px;
+    height: 8px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+
+  .selector > img {
+    width: 8px;
+    height: 8px;
   }
 }
