@@ -33,6 +33,9 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+.s5Buy div {
+  cursor: pointer;
+}
 
 @media (max-width: 510px) {
   .s5Top {
